@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+
+.desk-nav {
+    @apply font-sans text-gray-600 border-b-2 py-3 border-transparent no-underline mr-8;
+}
+.desk-nav:hover{
+    @apply border-red-600 text-red-600;
+}
+.mobile-nav{
+    @apply border-b text-center py-4 text-gray-600;
+}
+.mobile-nav:hover{
+    @apply text-red-600;
+}
+.signIn{
+    @apply font-medium text-red-500 py-1 px-3 border-2 rounded border-red-500;
+}
+.signIn:hover {
+    @apply bg-red-500 text-white; 
+}
+
+@tailwind utilities;
